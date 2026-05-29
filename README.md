@@ -67,8 +67,8 @@ If `NTFY_TOPIC` is left empty, notifications are disabled.
 Sync failures and timeouts trigger an immediate notification. To prevent notification fatigue, successes are batched into a daily summary sent after every 24 runs, reporting how many succeeded. Restic backups notify on both success and failure.
 
 ### Development
-- `docker compose exec backups ente-sync`: run the ente export manually
-- `docker compose exec backups bash /usr/local/bin/restic-backup.sh`: run the restic backup manually
+- `docker compose exec backups ente-sync`: run the ente export mannually
+- `docker compose exec backups bash /usr/local/bin/restic-backup.sh`: run the restic backup mannually
 
 ### Notes
 - Logs: `docker compose logs -f`

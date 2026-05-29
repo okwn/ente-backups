@@ -72,3 +72,5 @@ Sync failures and timeouts trigger an immediate notification. To prevent notific
 
 ### Notes
 - Logs: `docker compose logs -f`
+
+- Improved documentation clarity

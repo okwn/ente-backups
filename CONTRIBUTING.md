@@ -57,3 +57,5 @@ Before submitting a PR, ensure:
 - `restic-backup.sh` — Shell script that runs restic backup with notification
 - `Dockerfile` — Container image definition
 - `docker-compose.yml` — Service orchestration
+## Contributors
+- Documentation improvements (2026)
